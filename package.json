@@ -1,0 +1,44 @@
+{
+  "name": "blitz-hompage",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "nuxt build && node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/i18n": "^8.0.0-rc.5",
+    "@types/rss": "^0.0.32",
+    "nuxt": "^3.8.0",
+    "nuxt-gtag": "^1.1.2",
+    "vue": "^3.3.6",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.79",
+    "@gtm-support/vue-gtm": "^2.2.0",
+    "@mdi/font": "^7.3.67",
+    "@nuxtjs/robots": "^3.0.0",
+    "@pinia/nuxt": "^0.5.1",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "aos": "^2.3.4",
+    "pinia": "^2.1.7",
+    "rss": "^1.2.2",
+    "sass": "^1.69.5",
+    "sitemap": "^7.1.1",
+    "vite": "^5.0.10",
+    "vue-slick-carousel": "^1.0.6",
+    "vue3-carousel": "^0.3.1",
+    "vue3-google-map": "^0.18.0",
+    "vuetify": "^3.4.0-alpha.1",
+    "vuex": "^4.1.0"
+  },
+  "overrides": {
+    "vue": "^3.3.6"
+  }
+}
